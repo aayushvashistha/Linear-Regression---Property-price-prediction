@@ -57,13 +57,13 @@ Machine-learning algorithms use statistics to find patterns in massive amounts o
 ***Note: Below Models are for Total Price Prediction***
 
 ## Multi-Linear Regression Model:
-	Multi Linear Regression Model an obtained accuracy of 80%.
+Multi Linear Regression Model an obtained accuracy of 80%.
 
 **Accuracy:  0.8081718234464055**
  
 
 ## Random Forest Regression Model:
-	Random Forest Regression Model  obtained the accuracy level of 91% which is significantly higher than the Multi linear regression model.
+Random Forest Regression Model  obtained the accuracy level of 91% which is significantly higher than the Multi linear regression model.
 
 **Accuracy:  0.9103582877555013**
  
@@ -71,28 +71,28 @@ Machine-learning algorithms use statistics to find patterns in massive amounts o
 Rather than creating each model one by one, Pipeline method from scikit-learn can be used. Pipelines are set up with the fit/transform/predict functionality, so that it can fit the whole pipeline to the training data and transform the test data without having to do it individually every time.
 
 ## Model Selection:
-	Using Pipeline method and creating Support Vector Regression, Decision Tree Regression, Random Forest Regression and XgBoost Models and evaluation.
+Using Pipeline method and creating Support Vector Regression, Decision Tree Regression, Random Forest Regression and XgBoost Models and evaluation.
 
-Support Vector Regression Test Accuracy: 0.7880154354787211
-Decision Tree Regression Test Accuracy: 0.8523314480946618
-Random Forest Regression Test Accuracy: 0.9269710134397035
-XgBoost Test Accuracy: 0.9254096946611579
+*Support Vector Regression Test Accuracy: 0.7880154354787211
+*Decision Tree Regression Test Accuracy: 0.8523314480946618
+*Random Forest Regression Test Accuracy: 0.9269710134397035
+*XgBoost Test Accuracy: 0.9254096946611579
 
 --------------------------------------
 
 **Best Regressor -  Random Forest Regression**
-Best Score -  0.9269710134397035
+**Best Score -  0.9269710134397035**
 Wall time: 8min 41s
 
 From the above, it is clear that the Random Forest Regression could be the best model for the dataset. However, XGBoost Model’s accuracy is almost same as Random Forest Regression. 
 
 ## XGBoost Model:
-	Since the XGBoost Model also has the higher accuracy, fine tuning some of its parameters obtained the accuracy of 93% which is slightly increased from the Random Forest Regression Model.
+Since the XGBoost Model also has the higher accuracy, fine tuning some of its parameters obtained the accuracy of 93% which is slightly increased from the Random Forest Regression Model.
 **Accuracy:  0.9316550942094334**
  
 
 ## Conclusion
-	XGBoost Model is the best one across all the regression models for this dataset. This model obtained 93% of accuracy for both of the Total Price and Square variable predictions. 
+XGBoost Model is the best one across all the regression models for this dataset. This model obtained 93% of accuracy for both of the Total Price and Square variable predictions. 
 
 
 References
