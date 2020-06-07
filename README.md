@@ -1,11 +1,11 @@
 # Linear-Regression---Property-price-prediction
 
-Beijing Property Price Prediction
+#Beijing Property Price Prediction
 Using Machine Learning Algorithms
 
 
 
-Created By: Aayush Vashistha
+#Created By: Aayush Vashistha
 Email: aayush.vashistha@gmail.com
 Ph no: (519)588-4160
  
