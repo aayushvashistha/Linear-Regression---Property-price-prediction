@@ -73,10 +73,10 @@ Rather than creating each model one by one, Pipeline method from scikit-learn ca
 ## Model Selection:
 Using Pipeline method and creating Support Vector Regression, Decision Tree Regression, Random Forest Regression and XgBoost Models and evaluation.
 
-*Support Vector Regression Test Accuracy: 0.7880154354787211*
-*Decision Tree Regression Test Accuracy: 0.8523314480946618*
-*Random Forest Regression Test Accuracy: 0.9269710134397035*
-*XgBoost Test Accuracy: 0.9254096946611579*
+-Support Vector Regression Test Accuracy: 0.7880154354787211
+-Decision Tree Regression Test Accuracy: 0.8523314480946618
+-Random Forest Regression Test Accuracy: 0.9269710134397035
+-XgBoost Test Accuracy: 0.9254096946611579
 
 --------------------------------------
 
